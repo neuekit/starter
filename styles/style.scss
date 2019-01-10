@@ -1,0 +1,14 @@
+/*----------------------------------------------------------------------------*\
+    #STYLE
+
+    Import the SpringBoard framework, all settings, configurable mixins & theme.
+\*----------------------------------------------------------------------------*/
+
+@import 'node_modules/springboard/src/styles/settings';
+@import 'application/settings';
+
+@import 'node_modules/springboard/src/styles/springboard';
+@import 'application/springboard';
+@import 'application/application';
+
+

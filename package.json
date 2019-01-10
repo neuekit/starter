@@ -1,0 +1,50 @@
+{
+  "name": "PROJECT",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "YOUR PROJECT DESCRIPTION HERE",
+  "author": "Creative Little Dots",
+  "browserslist": [
+    ">0.5%",
+    "not op_mini all",
+    "not android <= 4.4.4"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/runtime": "^7.2.0",
+    "autoprefixer": "^9.4.4",
+    "browser-sync": "^2.26.3",
+    "custom-event-polyfill": "^1.0.6",
+    "element-closest": "^3.0.0",
+    "node-sass": "^4.11.0",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^5.2.0",
+    "postcss-cli": "^6.1.0",
+    "promise-polyfill": "^8.1.0",
+    "rollup": "^1.1.0",
+    "rollup-plugin-babel": "^4.2.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-terser": "^4.0.2",
+    "smoothscroll-polyfill": "^0.4.2",
+    "springboard": "^1.0.0-alpha.2",
+    "stickyfilljs": "^2.1.0",
+    "svg4everybody": "^2.1.9",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "scripts": {
+    "serve": "browser-sync start --server --directory --no-notify --files '.' --ignore 'node_modules'",
+    "scss": "node-sass -x -r --output-style compressed --output ./styles ./styles",
+    "autoprefixer": "postcss --use autoprefixer --replace ./styles/style.css --no-map",
+    "build:css": "npm run scss --silent && npm run autoprefixer --silent",
+    "build:js": "rollup --config",
+    "build": "npm run build:css --silent && npm run build:js --silent",
+    "watch:css": "onchange './styles/**/*.scss' -- npm run build:css --silent",
+    "watch:js": "rollup --config --watch",
+    "watch": "npm-run-all --parallel 'serve --silent' 'watch:css --silent' 'watch:js --silent'",
+    "start": "npm run watch --silent"
+  }
+}
