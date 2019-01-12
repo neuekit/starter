@@ -30,7 +30,7 @@
     "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-terser": "^4.0.2",
     "smoothscroll-polyfill": "^0.4.2",
-    "springboard": "^1.0.0-alpha.2",
+    "spark": "^1.0.0-alpha.3",
     "stickyfilljs": "^2.1.0",
     "svg4everybody": "^2.1.9",
     "whatwg-fetch": "^3.0.0"
