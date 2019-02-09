@@ -4,10 +4,10 @@
     Import the Spark framework, all settings, configurable mixins & theme.
 \*----------------------------------------------------------------------------*/
 
-@import 'node_modules/spark/src/styles/settings';
+@import 'node_modules/@creativelittledots/spark/src/styles/settings';
 @import 'application/settings';
 
-@import 'node_modules/spark/src/styles/spark';
+@import 'node_modules/@creativelittledots/spark/src/styles/spark';
 @import 'application/spark';
 @import 'application/application';
 

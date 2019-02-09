@@ -10,7 +10,7 @@
 
 /* Imports */
 
-import Spark from 'spark/src/scripts/spark';
+import Spark from '@creativelittledots/spark/src/scripts/spark';
 import * as util from './modules/utilities';
 
 
