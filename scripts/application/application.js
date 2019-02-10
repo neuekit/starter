@@ -10,15 +10,15 @@
 
 /* Imports */
 
-import Spark from '@creativelittledots/spark/src/scripts/spark';
+import NeueKit from 'neuekit/src/scripts/neuekit';
 import * as util from './modules/utilities';
 
 
-/* Spark */
+/* Neue Kit */
 
-const spark = new Spark();
+const neuekit = new NeueKit();
 
-window.spark = spark;
+window.neuekit = neuekit;
 /* Project Code */
 
 

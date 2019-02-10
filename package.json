@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "description": "YOUR PROJECT DESCRIPTION HERE",
-  "author": "Creative Little Dots",
+  "author": "YOUR NAME",
   "browserslist": [
     ">0.5%",
     "not op_mini all",
@@ -30,7 +30,7 @@
     "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-terser": "^4.0.2",
     "smoothscroll-polyfill": "^0.4.2",
-    "@creativelittledots/spark": "^1.0.0-alpha.3",
+    "neuekit": "^1.0.0-alpha.4",
     "stickyfilljs": "^2.1.0",
     "svg4everybody": "^2.1.9",
     "whatwg-fetch": "^3.0.0"
