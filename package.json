@@ -30,13 +30,13 @@
     "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-terser": "^4.0.2",
     "smoothscroll-polyfill": "^0.4.2",
-    "neuekit": "^1.0.0-alpha.4",
+    "neuekit": "^1.0.0-alpha.6",
     "stickyfilljs": "^2.1.0",
     "svg4everybody": "^2.1.9",
     "whatwg-fetch": "^3.0.0"
   },
   "scripts": {
-    "serve": "browser-sync start --server --directory --no-notify --files '.' --ignore 'node_modules'",
+    "serve": "browser-sync start --server --no-notify --files '.' --ignore 'node_modules'",
     "scss": "node-sass -x -r --output-style compressed --output ./styles ./styles",
     "autoprefixer": "postcss --use autoprefixer --replace ./styles/style.css --no-map",
     "build:css": "npm run scss --silent && npm run autoprefixer --silent",
