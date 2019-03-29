@@ -8,6 +8,7 @@ export default () => {
     const plugins = [
         babel({
             exclude: [
+                /\/core-js\//,
                 'node_modules/**',
                 './scripts/parties/**',
                 './scripts/polyfills/**'
