@@ -18,8 +18,11 @@ export default () => {
             ],
             presets: [[
                 '@babel/env', {
-                    shippedProposals: true,
-                    useBuiltIns: 'usage'
+                    useBuiltIns: 'usage',
+                    corejs: {
+                        version: 3,
+                        proposals: true
+                    }
                 }
             ]]
         }),
