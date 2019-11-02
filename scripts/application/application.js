@@ -10,7 +10,7 @@
 
 /* Imports */
 
-import NeueKit from 'neuekit/src/scripts/neuekit';
+import NeueKit from '@neuekit/neuekit/src/scripts/neuekit';
 import * as util from './modules/utilities';
 
 
