@@ -1,4 +1,4 @@
-# <a href="http://creativelittle.uk/neuekit" target="_blank">Neue Kit</a> - M1
+# <a href="https://neuekit.github.io/neuekit/" target="_blank">Neue Kit</a> - M1
 
 The Creative Little Neue Kit is a utilitarian, ITCSS based, super scaleable front-end framework. It's built for the modern web and only supports modern browsers, oh and IE11, all for the benefit of web users everywhere.
 
