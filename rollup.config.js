@@ -7,6 +7,7 @@ export default () => {
 
     const plugins = [
         babel({
+            babelHelpers: 'bundled',
             exclude: [
                 /\/core-js\//,
                 'node_modules/**',
